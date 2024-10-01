@@ -490,6 +490,79 @@ td {
 }
 
 
+/* map */
+
+.Map {
+    width: 100%;
+    height: 75vh;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+/* .map-left  {
+    width: 100%;
+    height: 100vh;
+ 
+} */
+.show-map iframe {
+   width: 60rem;
+   height: 37.5rem;
+}
+.map-right {
+    width: 60rem;
+    height: 37.5rem;
+    background: url("	https://templatemo.com/templates/templatemo_548_training_studio/assets/images/contact-bg.jpg");
+}
+
+.form form  {
+ background-color: #fff;
+   padding: 2.5rem;
+   width:  80%;
+   height: 30.65625rem;
+   margin: auto;
+   margin-top: 5rem;
+   border-radius: 0.62rem;
+}
+form input {
+    width: 100%;
+    padding: 20px;
+    margin: auto;
+    margin: 0.625rem;
+    border: 1px solid #ddd;
+    color:#7a7a7a ;
+    outline: none;
+    font-size: 0.8125;
+
+}
+.blog_1  {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 10px;
+}
+
+.btn-form {
+    background-color: #ed563b;
+    color: #fff;
+    font-weight: 400;
+    text-transform: uppercase;
+    font-size: 0.8125rem;
+    border: none;
+    padding: 20px;
+    margin-left: 1rem;
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.footer p {
+    font-size: 0.8125rem;
+    color: #232d39;
+}
+
 @media(max-width: 780px)  {
    .Desketop-menu {
     position: sticky;
@@ -631,11 +704,52 @@ td {
      }
 
      .grid-boxess {
+        width: 90%;
+        height: 100%;
         display: grid;
         grid-template-columns: 1fr;
+        margin: auto;
      }
-     .grid-box_1 {
-        width: auto;
-     }
+   .expert-group {
+    width: 100%;
+    height: auto;
+   }
+   .Map {
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: 1fr;
+    margin-top: 2rem;
+   }
+   .blog_1 {
+    display: grid;
+    grid-template-columns: 1fr;
+   }
+   .map-left {
+    width: 100%;
+    height: 100vh;
+   }
+   .show-map iframe {
+    width: 100%;
+    height: 100vh;
+   }
+   form input {
+    width: 100%;
+   
+   }
+   .map-right {
+    width: 100%;
+    height: 100%;
+    padding-bottom: 10px;
+   }
+
+   .footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
    
 }
