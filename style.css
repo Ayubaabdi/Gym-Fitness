@@ -20,7 +20,7 @@ body {
     z-index: -1;
 }
 header {
-    height: 100vh;
+    
     background-color: rgba(35, 45, 57, 0.8) ;
    
 }
@@ -751,5 +751,16 @@ form input {
     text-align: center;
 
 }
-   
+.right-section {
+    text-align: center;
+    align-items: baseline;
+}
+.map-left {
+    text-align: center;
+}
+ .grid-box_1 {
+    max-width: inherit;
+
+}
+
 }
