@@ -15,4 +15,5 @@ humburgery.addEventListener("click", function (event) {
     icons[0].setAttribute("data-visible", "false");
     icons[1].setAttribute("data-visible", "true");
   }
+  
 });
